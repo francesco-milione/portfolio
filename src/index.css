@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  /* Backgrounds */
+  --color-bg:          #0a0a0f;
+  --color-bg-secondary:#0f0f17;
+  --color-navbar:      #0d0d14;
+  --color-navbar-blur: rgba(13, 13, 20, 0.75);
+  --color-card:        #13131e;
+  --color-border:      #1e1e2e;
+
+  /* Accent — cyan/electric blue, stile terminale */
+  --color-accent:      #00d4ff;
+  --color-accent-dim:  #00a8cc;
+  --color-accent-glow: rgba(0, 212, 255, 0.15);
+
+  /* Secondary accent — viola soft */
+  --color-purple:      #a855f7;
+  --color-purple-dim:  #7c3aed;
+  --color-purple-glow: rgba(168, 85, 247, 0.15);
+
+  /* Testo */
+  --color-text:        #e2e8f0;
+  --color-text-muted:  #64748b;
+  --color-text-dim:    #94a3b8;
+
+  /* Status */
+  --color-success:     #22c55e;
+  --color-warning:     #f59e0b;
+  --color-error:       #ef4444;
+
+  /* Online indicator */
+  --color-online:      #22c55e;
+  --color-online-glow: rgba(34, 197, 94, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
